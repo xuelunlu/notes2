@@ -62,6 +62,7 @@
 <ul>
 	<li>git clone https://github.com/amnuts/opcache-gui.git</li>
 	<li>*/30 * * * * tar -zcvf /opt/rh/httpd24/root/var/www/html/richsite_blog.tar.gz /opt/rh/httpd24/root/var/www/html/wordpress</li>
+	<li>*/30 * * * * mysqldump -u richsite_blog -p密碼 richsite_blog > /opt/rh/httpd24/root/var/www/html/richsite_blog.sql</li>
 </ul>
 <h3>參考:</h3>
 <ul>
