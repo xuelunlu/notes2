@@ -1,72 +1,113 @@
 <?php include('top.php'); ?>
-<h3>安裝步驟:</h3>
-<ul>
-	<li>setenforce 0</li>
-	<li>yum install centos-release-scl</li>
-	<li>yum install httpd24</li>
-	<li>yum install rh-mysql57-mysql-server</li>
-	<li>yum install rh-php70-php rh-php70-php-mbstring rh-php70-php-mysqlnd rh-php70-php-gd rh-php70-php-opcache</li>
-</ul>
-<h3>建立軟連結:</h3>
-<ul>
-	<li>ln -s /opt/rh/rh-mysql57/root/usr/bin/mysql /usr/bin/mysql</li>
-	<li>ln -s /opt/rh/rh-mysql57/root/usr/bin/mysqladmin /usr/bin/mysqladmin</li>
-	<li>ln -s /opt/rh/rh-mysql57/root/usr/bin/mysqldump /usr/bin/mysqldump</li>
-	<li>ln -s /opt/rh/rh-php70/root/usr/bin/php /usr/bin/php</li>
-</ul>
-<h3>啟動指令:</h3>
-<ul>
-	<li>service httpd24-httpd start</li>
-	<li>service rh-mysql57-mysqld start</li>
-	<li>systemctl start httpd24-httpd</li>
-</ul>
-<h3>初始化:</h3>
-<ul>
-	<li>mysqladmin -u root password 'your.password'</li>
-	<li>chown xuelun_lu /opt/rh/httpd24/root/var/www/html</li>
-	<li>chgrp xuelun_lu /opt/rh/httpd24/root/var/www/html</li>
-</ul>
-<h3>設定檔位置:</h3>
-<ul>
-	<li>/etc/opt/rh/rh-php70/php.ini</li>
-	<li>/opt/rh/httpd24/root/etc/httpd/conf/httpd.conf</li>
-	<li>/opt/rh/httpd24/root/etc/httpd/conf.d</li>
-	<li>/etc/opt/rh/rh-mysql57/my.cnf</li>
-</ul>
-<h3>log檔位置:</h3>
-<ul>
-	<li>/var/log/httpd24</li>
-</ul>
-<h3>網站根目錄位置:</h3>
-<ul>
-	<li>/opt/rh/httpd24/root/var/www/html</li>
-</ul>
-<h3>建立虛擬主機:</h3>
-<ul>
-	<li>vi /opt/rh/httpd24/root/etc/httpd/conf.d/virtual.conf</li>
-	<li><pre>
-		#NameVirtualHost *:80
-		&ltVirtualHost *:80&gt
-		ServerName tool.ithelper.idv.tw
-		DocumentRoot /opt/rh/httpd24/root/var/www/html/tool
-		&lt/VirtualHost&gt
-	</pre></li>
-</ul>
-<h3>crontab:</h3>
-<ul>
-	<li>rm /etc/cron.deny</li>
-	<li>vi /etc/cron.allow</li>
-	<li>/etc/init.d/crond restart</li>
-</ul>
-<h3>其他:</h3>
-<ul>
-	<li>git clone https://github.com/amnuts/opcache-gui.git</li>
-	<li>*/30 * * * * tar -zcvf /opt/rh/httpd24/root/var/www/html/richsite_blog.tar.gz /opt/rh/httpd24/root/var/www/html/wordpress</li>
-	<li>*/30 * * * * mysqldump -u richsite_blog -p密碼 richsite_blog > /opt/rh/httpd24/root/var/www/html/richsite_blog.sql</li>
-</ul>
-<h3>參考:</h3>
-<ul>
-	<li><a href="https://wiki.centos.org/zh-tw/AdditionalResources/Repositories/SCL" target="_blank">https://wiki.centos.org/zh-tw/AdditionalResources/Repositories/SCL</a></li>
-	<li><a href="https://wiki.centos.org/SpecialInterestGroup/SCLo/CollectionsList" target="_blank">https://wiki.centos.org/SpecialInterestGroup/SCLo/CollectionsList</a></li>
-</ul>
+<div class="row">
+	<div class="col-md-2">
+		<h3>開發工具</h3>
+		<ul>
+			<li><a target="_blank" href="https://developers.google.com/speed/pagespeed/insights/?hl=zh-TW">PageSpeed Insights</a></li>
+			<li><a target="_blank" href="https://tw.dictionary.search.yahoo.com/">Yahoo奇摩字典搜尋</a></li>
+		</ul>
+	</div>
+	<div class="col-md-2">
+		<h3>管理工具</h3>
+		<ul>
+			<li><a target="_blank" href="https://domain.cloudmax.com.tw/index.php">Cloudmax 網域名稱申請服務</a></li>
+			<li><a target="_blank" href="https://domain.hinet.net/">HiNet 網域名稱申請服務</a></li>
+		</ul>
+	</div>
+	<div class="col-md-2">
+		<h3>其他</h3>
+		<ul>
+			<li><a target="_blank" href="https://www.judicial.gov.tw/assist/assist03-07.asp">書狀參考範例─刑事訴訟部分</a></li>
+			<li><a target="_blank" href="http://csdi.judicial.gov.tw/abbs/wkw/WHD3A00.jsp">案件庭期查詢系統</a></li>
+		</ul>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-2">
+		<h3 style="color: #0000FF;">richsite_blog</h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>項目</th><th>&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="http://localhost/richsite_blog/" target="_blank">　網址 - 開發機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="http://35.185.172.250/wordpress/" target="_blank">　網址 - 正式機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="http://35.185.172.250/phpMyAdmin-4.7.9-all-languages/" target="_blank">資料庫 - 正式機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="col-md-2">
+		<h3 style="color: #0000FF;">richsite</h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>項目</th><th>&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="http://localhost/richsite/" target="_blank">網址 - 開發機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="http://35.185.172.250/richsite/" target="_blank">網址 - 正式機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="col-md-4">
+		<h3 style="color: #0000FF;">文章完成</h3>
+		<table class="table table-bordered">
+			<tbody>
+				<tr>
+					<td>情感性價值</td>
+					<td>佔領需求產生的第一線要道</td>
+					<td>極富美的秘密</td>
+				</tr>
+				<tr>
+					<td>感受也是一種差異化</td>
+					<td>什麼是到達頁面（LANDING PAGE）？</td>
+					<td>內容行銷之最高秘訣（<font color="red">需補按鈕</font>）</td>
+				</tr>
+				<tr>
+					<td>網路上的SEO檢測工具可信嗎？</td>
+					<td>方便是很好的差異化方法（<font color="red">內有連結</font>）</td>
+					<td>「差異化」、「精準鎖定客戶群」與「客製化的行銷方式」</td>
+				</tr>
+				<tr>
+					<td>更細膩地分析市場結構</td>
+					<td>什麼是GOOGLE關鍵字廣告？</td>
+					<td>先行銷自己再行銷產品</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="col-md-2">
+		<h3 style="color: #0000FF;">工作事項</h3>
+		<table class="table table-bordered">
+			<tbody>
+				<tr>
+					<td>Blog或法律諮詢網一篇文章</td>
+					<td>法律諮詢網架設</td>
+				</tr>
+				<tr>
+					<td>法律諮詢網互動</td>
+					<td>&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
 <?php include('bottom.php'); ?>
