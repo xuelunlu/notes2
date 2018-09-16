@@ -67,6 +67,38 @@
 			</tbody>
 		</table>
 	</div>
+	<div class="col-md-2">
+		<h3 style="color: #0000FF;">lawforum</h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>項目</th><th>&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="http://localhost/lawforum/forum.php" target="_blank">網址 - 開發機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="http://localhost/lawforum/admin.php?frames=yes&action=index" target="_blank">網址（後台） - 開發機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="http://35.221.134.35/discuz/upload/forum.php" target="_blank">網址 - 正式機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="http://35.221.134.35/discuz/upload/admin.php?frames=yes&action=index" target="_blank">網址（後台） - 正式機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="http://35.221.134.35/phpMyAdmin-4.0.10.20-all-languages/" target="_blank">資料庫 - 正式機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 	<div class="col-md-4">
 		<h3 style="color: #0000FF;">文章完成</h3>
 		<table class="table table-bordered">
@@ -91,6 +123,9 @@
 					<td>什麼是GOOGLE關鍵字廣告？</td>
 					<td>先行銷自己再行銷產品</td>
 				</tr>
+				<tr>
+					<td>網頁載入速度與特效的關係</td>
+				</tr>
 			</tbody>
 		</table>
 	</div>
@@ -104,7 +139,7 @@
 				</tr>
 				<tr>
 					<td>法律諮詢網互動</td>
-					<td>&nbsp;</td>
+					<td></td>
 				</tr>
 			</tbody>
 		</table>
