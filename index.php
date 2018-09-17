@@ -19,6 +19,7 @@
 		<ul>
 			<li><a target="_blank" href="https://www.judicial.gov.tw/assist/assist03-07.asp">書狀參考範例─刑事訴訟部分</a></li>
 			<li><a target="_blank" href="http://csdi.judicial.gov.tw/abbs/wkw/WHD3A00.jsp">案件庭期查詢系統</a></li>
+			<li><a target="_blank" href="https://simpany.co/">心朋科技有限公司</a></li>
 		</ul>
 	</div>
 </div>
@@ -77,19 +78,11 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="http://localhost/lawforum/forum.php" target="_blank">網址 - 開發機</a></td>
+					<td><a href="http://localhost/Discuz_X3.2_TC_UTF8/upload/admin.php?frames=yes&action=index" target="_blank">　網址 - 開發機</a></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><a href="http://localhost/lawforum/admin.php?frames=yes&action=index" target="_blank">網址（後台） - 開發機</a></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><a href="http://35.221.134.35/discuz/upload/forum.php" target="_blank">網址 - 正式機</a></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><a href="http://35.221.134.35/discuz/upload/admin.php?frames=yes&action=index" target="_blank">網址（後台） - 正式機</a></td>
+					<td><a href="#" target="_blank">　網址 - 正式機</a></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
@@ -125,6 +118,7 @@
 				</tr>
 				<tr>
 					<td>網頁載入速度與特效的關係</td>
+					<td>圖片載入太慢的真相</td>
 				</tr>
 			</tbody>
 		</table>
