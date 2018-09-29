@@ -4,8 +4,9 @@
 	<li>setenforce 0</li>
 	<li>yum install centos-release-scl</li>
 	<li>yum install httpd24</li>
-	<li>yum install rh-mysql57-mysql-server</li>
+	<li>yum install rh-mysql57-mysql-server, yum install mysql-server</li>
 	<li>yum install rh-php70-php rh-php70-php-mbstring rh-php70-php-mysqlnd rh-php70-php-gd rh-php70-php-opcache</li>
+	<li>yum install php php-mbstring php-gd</li>
 </ul>
 <h3>建立軟連結:</h3>
 <ul>
@@ -61,10 +62,10 @@
 <h3>其他:</h3>
 <ul>
 	<li>git clone https://github.com/amnuts/opcache-gui.git</li>
-	<li>0 0 * * * tar -zcvf /opt/rh/httpd24/root/var/www/html/richsite_blog.tar.gz /opt/rh/httpd24/root/var/www/html/wordpress</li>
-	<li>0 0 * * * mysqldump -u richsite_blog -p密碼 richsite_blog > /opt/rh/httpd24/root/var/www/html/richsite_blog.sql</li>
-	<li>*/30 * * * * /etc/init.d/httpd24-httpd restart >> /opt/rh/httpd24/root/var/www/html/httpd-logs</li>
-	<li>*/30 * * * * /etc/init.d/rh-mysql57-mysqld restart >> /opt/rh/httpd24/root/var/www/html/mysqld-logs</li>
+	<li>0 1 * * * tar -zcvf /opt/rh/httpd24/root/var/www/html/richsite_blog.tar.gz /opt/rh/httpd24/root/var/www/html/wordpress</li>
+	<li>0 1 * * * mysqldump -u richsite_blog -p密碼 richsite_blog > /opt/rh/httpd24/root/var/www/html/richsite_blog.sql</li>
+	<li>0 */4 * * * /etc/init.d/httpd24-httpd restart >> /opt/rh/httpd24/root/var/www/html/httpd-logs</li>
+	<li>0 */4 * * * /etc/init.d/rh-mysql57-mysqld restart >> /opt/rh/httpd24/root/var/www/html/mysqld-logs</li>
 </ul>
 <h3>參考:</h3>
 <ul>

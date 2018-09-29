@@ -10,8 +10,10 @@
 	<div class="col-md-2">
 		<h3>管理工具</h3>
 		<ul>
-			<li><a target="_blank" href="https://domain.cloudmax.com.tw/index.php">Cloudmax 網域名稱申請服務</a></li>
-			<li><a target="_blank" href="https://domain.hinet.net/">HiNet 網域名稱申請服務</a></li>
+			<li><a target="_blank" href="https://www.google.com/webmasters/tools/home?hl=zh-TW">網站管理員</a></li>
+			<li><a target="_blank" href="https://ads.google.com/aw/overview?ocid=285595153&__c=9977949897&authuser=0&__u=5764401155">Google Ads - 極富美</a></li>
+			<li><a target="_blank" href="https://console.cloud.google.com/home/dashboard?project=richsite-blog">gcp - 極富美</a></li>
+			<li><a target="_blank" href="https://console.cloud.google.com/home/dashboard?project=ivory-sanctuary-217718">gcp - lawqa</a></li>
 		</ul>
 	</div>
 	<div class="col-md-2">
@@ -20,10 +22,70 @@
 			<li><a target="_blank" href="https://www.judicial.gov.tw/assist/assist03-07.asp">書狀參考範例─刑事訴訟部分</a></li>
 			<li><a target="_blank" href="http://csdi.judicial.gov.tw/abbs/wkw/WHD3A00.jsp">案件庭期查詢系統</a></li>
 			<li><a target="_blank" href="https://simpany.co/">心朋科技有限公司</a></li>
+			<li><a target="_blank" href="https://domain.cloudmax.com.tw/index.php">Cloudmax 網域名稱申請服務</a></li>
+			<li><a target="_blank" href="https://domain.hinet.net/">HiNet 網域名稱申請服務</a></li>
 		</ul>
+	</div>
+	<div class="col-md-2">
+		
 	</div>
 </div>
 <div class="row">
+	<div class="col-md-2">
+		<h3 style="color: #0000FF;">cana3</h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>項目</th><th>&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="http://localhost/cana3/" target="_blank">　網址 - 開發機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="http://www.cana.org.tw/" target="_blank">　網址 - 正式機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="http://db.cana.org.tw/" target="_blank">資料庫 - 正式機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="http://tool.cana.org.tw/" target="_blank">　工具 - 正式機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="col-md-4">
+		<h3 style="color: #0000FF;">richsite</h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>項目</th><th>&nbsp;</th><th>&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="http://localhost/richsite/" target="_blank">網址 - 開發機</a></td>
+					<td><a href="http://localhost/richsite/website.php" target="_blank">企業形象官網製作流程 - 開發機</a></td>
+					<td><a href="http://localhost/richsite/complex.php" target="_blank">客製化電商網站製作流程 - 開發機</a></td>
+				</tr>
+				<tr>
+					<td><a href="http://richsite.cana.org.tw/" target="_blank">網址 - 正式機</a></td>
+					<td><a href="http://richsite.cana.org.tw/website.php" target="_blank">企業形象官網製作流程 - 正式機</a></td>
+					<td><a href="http://richsite.cana.org.tw/complex.php" target="_blank">客製化電商網站製作流程 - 正式機</a></td>
+				</tr>
+				<tr>
+					<td><a href="http://tool.cana.org.tw/" target="_blank">　工具 - 正式機</a></td>
+					<td>&nbsp;</td>
+					<th>&nbsp;</th>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 	<div class="col-md-2">
 		<h3 style="color: #0000FF;">richsite_blog</h3>
 		<table class="table table-bordered">
@@ -38,31 +100,15 @@
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><a href="http://35.185.172.250/wordpress/" target="_blank">　網址 - 正式機</a></td>
+					<td><a href="http://blog.cana.org.tw/" target="_blank">　網址 - 正式機</a></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><a href="http://35.185.172.250/phpMyAdmin-4.7.9-all-languages/" target="_blank">資料庫 - 正式機</a></td>
-					<td>&nbsp;</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	<div class="col-md-2">
-		<h3 style="color: #0000FF;">richsite</h3>
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th>項目</th><th>&nbsp;</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><a href="http://localhost/richsite/" target="_blank">網址 - 開發機</a></td>
+					<td><a href="http://db.cana.org.tw/" target="_blank">資料庫 - 正式機</a></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><a href="http://35.185.172.250/richsite/" target="_blank">網址 - 正式機</a></td>
+					<td><a href="http://tool.cana.org.tw/" target="_blank">　工具 - 正式機</a></td>
 					<td>&nbsp;</td>
 				</tr>
 			</tbody>
@@ -88,52 +134,6 @@
 				<tr>
 					<td><a href="http://35.221.134.35/phpMyAdmin-4.0.10.20-all-languages/" target="_blank">資料庫 - 正式機</a></td>
 					<td>&nbsp;</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	<div class="col-md-4">
-		<h3 style="color: #0000FF;">文章完成</h3>
-		<table class="table table-bordered">
-			<tbody>
-				<tr>
-					<td>情感性價值</td>
-					<td>佔領需求產生的第一線要道</td>
-					<td>極富美的秘密</td>
-				</tr>
-				<tr>
-					<td>感受也是一種差異化</td>
-					<td>什麼是到達頁面（LANDING PAGE）？</td>
-					<td>內容行銷之最高秘訣（<font color="red">需補按鈕</font>）</td>
-				</tr>
-				<tr>
-					<td>網路上的SEO檢測工具可信嗎？</td>
-					<td>方便是很好的差異化方法（<font color="red">內有連結</font>）</td>
-					<td>「差異化」、「精準鎖定客戶群」與「客製化的行銷方式」</td>
-				</tr>
-				<tr>
-					<td>更細膩地分析市場結構</td>
-					<td>什麼是GOOGLE關鍵字廣告？</td>
-					<td>先行銷自己再行銷產品</td>
-				</tr>
-				<tr>
-					<td>網頁載入速度與特效的關係</td>
-					<td>圖片載入太慢的真相</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	<div class="col-md-2">
-		<h3 style="color: #0000FF;">工作事項</h3>
-		<table class="table table-bordered">
-			<tbody>
-				<tr>
-					<td>Blog或法律諮詢網一篇文章</td>
-					<td>法律諮詢網架設</td>
-				</tr>
-				<tr>
-					<td>法律諮詢網互動</td>
-					<td></td>
 				</tr>
 			</tbody>
 		</table>
