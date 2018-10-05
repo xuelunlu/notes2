@@ -5,6 +5,7 @@
 		<ul>
 			<li><a target="_blank" href="https://developers.google.com/speed/pagespeed/insights/?hl=zh-TW">PageSpeed Insights</a></li>
 			<li><a target="_blank" href="https://tw.dictionary.search.yahoo.com/">Yahoo奇摩字典搜尋</a></li>
+			<li><a target="_blank" href="https://www.fotor.com/">fotor</a></li>
 		</ul>
 	</div>
 	<div class="col-md-2">
@@ -27,7 +28,10 @@
 		</ul>
 	</div>
 	<div class="col-md-2">
-		
+		<h3>其他</h3>
+		<ul>
+			<li><a target="_blank" href="http://buy.sinyi.com.tw/list/NewTaipei-city/242-243-247-241-248-zip/house-use/1-1-room/price-asc/index.html">信義1房</a></li>
+		</ul>
 	</div>
 </div>
 <div class="row">
@@ -55,33 +59,6 @@
 				<tr>
 					<td><a href="http://tool.cana.org.tw/" target="_blank">　工具 - 正式機</a></td>
 					<td>&nbsp;</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	<div class="col-md-4">
-		<h3 style="color: #0000FF;">richsite</h3>
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th>項目</th><th>&nbsp;</th><th>&nbsp;</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><a href="http://localhost/richsite/" target="_blank">網址 - 開發機</a></td>
-					<td><a href="http://localhost/richsite/website.php" target="_blank">企業形象官網製作流程 - 開發機</a></td>
-					<td><a href="http://localhost/richsite/complex.php" target="_blank">客製化電商網站製作流程 - 開發機</a></td>
-				</tr>
-				<tr>
-					<td><a href="http://richsite.cana.org.tw/" target="_blank">網址 - 正式機</a></td>
-					<td><a href="http://richsite.cana.org.tw/website.php" target="_blank">企業形象官網製作流程 - 正式機</a></td>
-					<td><a href="http://richsite.cana.org.tw/complex.php" target="_blank">客製化電商網站製作流程 - 正式機</a></td>
-				</tr>
-				<tr>
-					<td><a href="http://tool.cana.org.tw/" target="_blank">　工具 - 正式機</a></td>
-					<td>&nbsp;</td>
-					<th>&nbsp;</th>
 				</tr>
 			</tbody>
 		</table>
@@ -114,26 +91,55 @@
 			</tbody>
 		</table>
 	</div>
-	<div class="col-md-2">
-		<h3 style="color: #0000FF;">lawforum</h3>
+	<div class="col-md-4">
+		<h3 style="color: #0000FF;">lawqa</h3>
 		<table class="table table-bordered">
 			<thead>
 				<tr>
-					<th>項目</th><th>&nbsp;</th>
+					<th>lawqa</th><th>lawqa_crontab</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="http://localhost/Discuz_X3.2_TC_UTF8/upload/admin.php?frames=yes&action=index" target="_blank">　網址 - 開發機</a></td>
+					<td><a href="http://localhost/lawqa/upload/forum.php" target="_blank">　網址 - 開發機</a></td>
+					<td><a href="http://localhost/lawqa_crontab/" target="_blank">　網址 - 開發機</a></td>
+				</tr>
+				<tr>
+					<td><a href="http://35.194.222.172/lawqa/upload/forum.php" target="_blank">　網址 - 正式機</a></td>
+					<td><a href="http://35.194.222.172/lawqa_crontab/" target="_blank">　網址 - 正式機</a></td>
+				</tr>
+				<tr>
+					<td><a href="http://35.194.222.172/phpMyAdmin-4.0.10.20-all-languages/" target="_blank">資料庫 - 正式機</a></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><a href="#" target="_blank">　網址 - 正式機</a></td>
+					<td colspan="2"><a href="http://35.194.222.172/tool/" target="_blank">　工具 - 正式機</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="col-md-4">
+		<h3 style="color: #0000FF;">bestrich</h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>bestrich</th><th>bestrich_blog</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="http://localhost/bestrich/" target="_blank">　網址 - 開發機</a></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><a href="http://35.221.134.35/phpMyAdmin-4.0.10.20-all-languages/" target="_blank">資料庫 - 正式機</a></td>
-					<td>&nbsp;</td>
+					<td><a href="http://35.221.141.84/drupal-7.59/" target="_blank">　網址 - 正式機</a></td>
+					<td><a href="http://35.221.141.84/wordpress/" target="_blank">　網址 - 正式機</a></td>
+				</tr>
+				<tr>
+					<td colspan="2"><a href="http://35.221.141.84/phpMyAdmin-4.7.9-all-languages/" target="_blank">資料庫 - 正式機</a></td>
+				</tr>
+				<tr>
+					<td colspan="2"><a href="http://35.221.141.84/tool/" target="_blank">　工具 - 正式機</a></td>
 				</tr>
 			</tbody>
 		</table>

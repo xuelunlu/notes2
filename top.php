@@ -30,7 +30,7 @@
 							<a class="dropdown-item" href="php7.php">Install PHP7</a>
 							<a class="dropdown-item" href="git.php">Install GIT</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
+							<a class="dropdown-item" href="discuz.php">gitignore</a>
 						</div>
 					</li>
 					<li class="nav-item">

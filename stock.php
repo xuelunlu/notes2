@@ -16,6 +16,12 @@
 					<td>0</td>
 				</tr>
 				<tr>
+					<td><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2892" target="_blank">第一金（2892）</a></td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+				</tr>
+				<tr>
 					<td><a href="http://www.cmoney.tw/finance/f00025.aspx?s=5880" target="_blank">合庫金（5880）</a></td>
 					<td>5</td>
 					<td>18.65</td>
@@ -64,6 +70,16 @@
 					<td><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2330" target="_blank">台積電（2330）</a></td>
 					<td>1</td>
 					<td>265</td>
+				</tr>
+				<tr>
+					<td><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2330" target="_blank">台積電（2330）</a></td>
+					<td>1</td>
+					<td>262</td>
+				</tr>
+				<tr>
+					<td><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2330" target="_blank">台積電（2330）</a></td>
+					<td>1</td>
+					<td>255</td>
 				</tr>
 				<tr>
 					<td><a href="http://www.cmoney.tw/finance/f00025.aspx?s=1707" target="_blank">葡萄王（1707）</a></td>

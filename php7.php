@@ -5,7 +5,7 @@
 	<li>yum install centos-release-scl</li>
 	<li>yum install httpd24</li>
 	<li>yum install rh-mysql57-mysql-server, yum install mysql-server</li>
-	<li>yum install rh-php70-php rh-php70-php-mbstring rh-php70-php-mysqlnd rh-php70-php-gd rh-php70-php-opcache</li>
+	<li>yum install rh-php70-php rh-php70-php-xml rh-php70-php-mbstring rh-php70-php-mysqlnd rh-php70-php-gd rh-php70-php-opcache</li>
 	<li>yum install php php-mbstring php-gd</li>
 </ul>
 <h3>建立軟連結:</h3>
