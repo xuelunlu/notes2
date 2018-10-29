@@ -6,6 +6,7 @@
 			<li><a target="_blank" href="https://developers.google.com/speed/pagespeed/insights/?hl=zh-TW">PageSpeed Insights</a></li>
 			<li><a target="_blank" href="https://tw.dictionary.search.yahoo.com/">Yahoo奇摩字典搜尋</a></li>
 			<li><a target="_blank" href="https://www.fotor.com/">fotor</a></li>
+			<li><a target="_blank" href="https://www.xml-sitemaps.com/">XML Sitemaps Generator</a></li>
 		</ul>
 	</div>
 	<div class="col-md-2">
@@ -25,74 +26,61 @@
 			<li><a target="_blank" href="https://simpany.co/">心朋科技有限公司</a></li>
 			<li><a target="_blank" href="https://domain.cloudmax.com.tw/index.php">Cloudmax 網域名稱申請服務</a></li>
 			<li><a target="_blank" href="https://domain.hinet.net/">HiNet 網域名稱申請服務</a></li>
+			<li><a target="_blank" href="http://localhost/admin/admindesigns/theme/ui_icons.html">ui_icons</a></li>
 		</ul>
 	</div>
 	<div class="col-md-2">
 		<h3>其他</h3>
 		<ul>
 			<li><a target="_blank" href="http://buy.sinyi.com.tw/list/NewTaipei-city/242-243-247-241-248-zip/house-use/1-1-room/price-asc/index.html">信義1房</a></li>
+			<li><a target="_blank" href="http://buy.sinyi.com.tw/list/NewTaipei-city/251-zip/house-use/1-1-room/price-asc/index.html">信義1房 - 淡水</a></li>
+			<li><a target="_blank" href="https://www.ntbt.gov.tw/etwmain/front/ETW213W">稅籍登記案件進度查詢</a></li>
+			<li><a target="_blank" href="https://eservice.nhi.gov.tw/webunit/system/loginca.aspx">網路申請成立健保投保單位</a></li>
 		</ul>
 	</div>
 </div>
 <div class="row">
-	<div class="col-md-2">
-		<h3 style="color: #0000FF;">cana3</h3>
+	<div class="col-md-4">
+		<h3 style="color: #0000FF;">richsite</h3>
 		<table class="table table-bordered">
 			<thead>
 				<tr>
-					<th>項目</th><th>&nbsp;</th>
+					<th colspan="5">35.189.161.218</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="http://localhost/cana3/" target="_blank">　網址 - 開發機</a></td>
-					<td>&nbsp;</td>
+					<td>official-website</td>
+					<td>product</td>
+					<td>catering</td>
+					<td>admin</td>
+					<td>blog</td>
 				</tr>
 				<tr>
-					<td><a href="http://www.cana.org.tw/" target="_blank">　網址 - 正式機</a></td>
-					<td>&nbsp;</td>
+					<td><a href="#" target="_blank">　網址 - 開發機</a></td>
+					<td><a href="http://localhost/product/index.php" target="_blank">　網址 - 開發機</a></td>
+					<td><a href="http://localhost/product/catering.php" target="_blank">　網址 - 開發機</a></td>
+					<td><a href="http://localhost/admin/" target="_blank">　網址 - 開發機</a></td>
+					<td></td>
 				</tr>
 				<tr>
-					<td><a href="http://db.cana.org.tw/" target="_blank">資料庫 - 正式機</a></td>
-					<td>&nbsp;</td>
+					<td><a href="http://www.richsite.com.tw/" target="_blank">　網址 - 正式機</a></td>
+					<td><a href="http://product.richsite.com.tw/" target="_blank">　網址 - 正式機</a></td>
+					<td></td>
+					<td><a href="http://admin.richsite.com.tw/" target="_blank">　網址 - 正式機</a></td>
+					<td><a href="http://blog.richsite.com.tw/" target="_blank">　網址 - 正式機</a></td>
 				</tr>
 				<tr>
-					<td><a href="http://tool.cana.org.tw/" target="_blank">　工具 - 正式機</a></td>
-					<td>&nbsp;</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	<div class="col-md-2">
-		<h3 style="color: #0000FF;">richsite_blog</h3>
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th>項目</th><th>&nbsp;</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><a href="http://localhost/richsite_blog/" target="_blank">　網址 - 開發機</a></td>
-					<td>&nbsp;</td>
+					<td colspan="5"><a href="http://db.richsite.com.tw/" target="_blank">資料庫 - 正式機</a></td>
 				</tr>
 				<tr>
-					<td><a href="http://blog.cana.org.tw/" target="_blank">　網址 - 正式機</a></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><a href="http://db.cana.org.tw/" target="_blank">資料庫 - 正式機</a></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td><a href="http://tool.cana.org.tw/" target="_blank">　工具 - 正式機</a></td>
-					<td>&nbsp;</td>
+					<td colspan="5"><a href="http://tool.richsite.com.tw/" target="_blank">　工具 - 正式機</a></td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 	<div class="col-md-4">
-		<h3 style="color: #0000FF;">lawqa</h3>
+		<h3 style="color: #0000FF;">35.194.222.172</h3>
 		<table class="table table-bordered">
 			<thead>
 				<tr>
@@ -118,28 +106,30 @@
 			</tbody>
 		</table>
 	</div>
-	<div class="col-md-4">
-		<h3 style="color: #0000FF;">bestrich</h3>
+	<div class="col-md-2">
+		<h3 style="color: #0000FF;">35.201.174.115</h3>
 		<table class="table table-bordered">
 			<thead>
 				<tr>
-					<th>bestrich</th><th>bestrich_blog</th>
+					<th>cana3</th><th>&nbsp;</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="http://localhost/bestrich/" target="_blank">　網址 - 開發機</a></td>
+					<td><a href="http://localhost/cana3/" target="_blank">　網址 - 開發機</a></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><a href="http://35.221.141.84/drupal-7.59/" target="_blank">　網址 - 正式機</a></td>
-					<td><a href="http://35.221.141.84/wordpress/" target="_blank">　網址 - 正式機</a></td>
+					<td><a href="http://www.cana.org.tw/" target="_blank">　網址 - 正式機</a></td>
+					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td colspan="2"><a href="http://35.221.141.84/phpMyAdmin-4.7.9-all-languages/" target="_blank">資料庫 - 正式機</a></td>
+					<td><a href="http://db.cana.org.tw/" target="_blank">資料庫 - 正式機</a></td>
+					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td colspan="2"><a href="http://35.221.141.84/tool/" target="_blank">　工具 - 正式機</a></td>
+					<td><a href="http://tool.cana.org.tw/" target="_blank">　工具 - 正式機</a></td>
+					<td>&nbsp;</td>
 				</tr>
 			</tbody>
 		</table>

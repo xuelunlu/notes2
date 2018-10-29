@@ -13,4 +13,9 @@
 	<li>wp-config.php</li>
 	<li>.htaccess</li>
 </ul>
+<h3>drupal8, 7</h3>
+<ul>
+	<li>sites/default/files/</li>
+	<li>sites/default/settings.php</li>
+</ul>
 <?php include('bottom.php'); ?>
