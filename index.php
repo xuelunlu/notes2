@@ -1,4 +1,4 @@
-<?php include('top.php'); ?>
+<?php include 'top.php';?>
 <div class="row">
 	<div class="col-md-2">
 		<h3>開發工具</h3>
@@ -19,7 +19,7 @@
 		</ul>
 	</div>
 	<div class="col-md-2">
-		<h3>其他</h3>
+		<h3>其他1</h3>
 		<ul>
 			<li><a target="_blank" href="https://www.judicial.gov.tw/assist/assist03-07.asp">書狀參考範例─刑事訴訟部分</a></li>
 			<li><a target="_blank" href="http://csdi.judicial.gov.tw/abbs/wkw/WHD3A00.jsp">案件庭期查詢系統</a></li>
@@ -30,12 +30,18 @@
 		</ul>
 	</div>
 	<div class="col-md-2">
-		<h3>其他</h3>
+		<h3>其他2</h3>
+		<ul>
+			<li><a target="_blank" href="https://www.ntbt.gov.tw/etwmain/front/ETW213W">稅籍登記案件進度查詢</a></li>
+			<li><a target="_blank" href="https://eservice.nhi.gov.tw/webunit/system/loginca.aspx">網路申請成立健保投保單位</a></li>
+			<li><a target="_blank" href="https://eservice.nhi.gov.tw/nhiweb1/system/mLoginCa.aspx">多憑證網路承保作業</a></li>
+		</ul>
+	</div>
+	<div class="col-md-2">
+		<h3>其他3</h3>
 		<ul>
 			<li><a target="_blank" href="http://buy.sinyi.com.tw/list/NewTaipei-city/242-243-247-241-248-zip/house-use/1-1-room/price-asc/index.html">信義1房</a></li>
 			<li><a target="_blank" href="http://buy.sinyi.com.tw/list/NewTaipei-city/251-zip/house-use/1-1-room/price-asc/index.html">信義1房 - 淡水</a></li>
-			<li><a target="_blank" href="https://www.ntbt.gov.tw/etwmain/front/ETW213W">稅籍登記案件進度查詢</a></li>
-			<li><a target="_blank" href="https://eservice.nhi.gov.tw/webunit/system/loginca.aspx">網路申請成立健保投保單位</a></li>
 		</ul>
 	</div>
 </div>
@@ -45,36 +51,39 @@
 		<table class="table table-bordered">
 			<thead>
 				<tr>
-					<th colspan="5">35.189.161.218</th>
+					<th colspan="4">35.189.161.218</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td>official-website</td>
-					<td>product</td>
-					<td>catering</td>
+					<td>richsite</td>
 					<td>admin</td>
 					<td>blog</td>
+					<td>shaco</td>
 				</tr>
 				<tr>
-					<td><a href="#" target="_blank">　網址 - 開發機</a></td>
-					<td><a href="http://localhost/product/index.php" target="_blank">　網址 - 開發機</a></td>
-					<td><a href="http://localhost/product/catering.php" target="_blank">　網址 - 開發機</a></td>
+					<td><a href="http://localhost/richsite/" target="_blank">　網址 - 開發機</a></td>
 					<td><a href="http://localhost/admin/" target="_blank">　網址 - 開發機</a></td>
 					<td></td>
+					<td><a href="http://localhost/shaco_development/" target="_blank">　網址 - 開發機</a></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><a href="http://shaco.richsite.com.tw/" target="_blank">　網址 - 測試機</a></td>
 				</tr>
 				<tr>
 					<td><a href="http://www.richsite.com.tw/" target="_blank">　網址 - 正式機</a></td>
-					<td><a href="http://product.richsite.com.tw/" target="_blank">　網址 - 正式機</a></td>
-					<td></td>
 					<td><a href="http://admin.richsite.com.tw/" target="_blank">　網址 - 正式機</a></td>
+					<td><a href="http://blog.richsite.com.tw/" target="_blank">　網址 - 正式機</a></td>
 					<td><a href="http://blog.richsite.com.tw/" target="_blank">　網址 - 正式機</a></td>
 				</tr>
 				<tr>
-					<td colspan="5"><a href="http://db.richsite.com.tw/" target="_blank">資料庫 - 正式機</a></td>
+					<td colspan="4"><a href="http://db.richsite.com.tw/" target="_blank">資料庫 - 正式機</a></td>
 				</tr>
 				<tr>
-					<td colspan="5"><a href="http://tool.richsite.com.tw/" target="_blank">　工具 - 正式機</a></td>
+					<td colspan="4"><a href="http://tool.richsite.com.tw/" target="_blank">　工具 - 正式機</a></td>
 				</tr>
 			</tbody>
 		</table>
@@ -135,4 +144,4 @@
 		</table>
 	</div>
 </div>
-<?php include('bottom.php'); ?>
+<?php include 'bottom.php';?>
