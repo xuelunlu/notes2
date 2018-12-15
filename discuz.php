@@ -10,6 +10,7 @@
 <ul>
 	<li>wp-content/uploads/</li>
 	<li>wp-content/cache/</li>
+	<li>wp-content/upgrade/</li>
 	<li>wp-config.php</li>
 	<li>.htaccess</li>
 </ul>
