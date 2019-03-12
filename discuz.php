@@ -1,4 +1,4 @@
-<?php include('top.php'); ?>
+<?php include 'top.php';?>
 <h3>discuz</h3>
 <ul>
 	<li>upload/data/</li>
@@ -19,4 +19,4 @@
 	<li>sites/default/files/</li>
 	<li>sites/default/settings.php</li>
 </ul>
-<?php include('bottom.php'); ?>
+<?php include 'bottom.php';?>

@@ -1,7 +1,8 @@
 <?php include 'top.php';?>
 <div class="row">
-	<div class="col-md-2">
-		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2886" target="_blank">兆豐金（2886）</a></h3>
+	<div class="col-md-3">
+		<h4 class="text-info">官股</h4>
+		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2886" target="_blank">兆豐金（2886）</a>（金控股）</h3>
 		<table class="table table-bordered">
 			<thead>
 				<tr>
@@ -10,13 +11,13 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>0</td>
-					<td>0</td>
-					<td>0</td>
+					<td>4</td>
+					<td>25.7</td>
+					<td>102800</td>
 				</tr>
 			</tbody>
 		</table>
-		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2880" target="_blank">華南金（2880）</a></h3>
+		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2880" target="_blank">華南金（2880）</a>（金控股）</h3>
 		<table class="table table-bordered">
 			<thead>
 				<tr>
@@ -31,9 +32,7 @@
 				</tr>
 			</tbody>
 		</table>
-	</div>
-	<div class="col-md-2">
-		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2892" target="_blank">第一金（2892）</a></h3>
+		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2892" target="_blank">第一金（2892）</a>（金控股）</h3>
 		<table class="table table-bordered">
 			<thead>
 				<tr>
@@ -48,7 +47,7 @@
 				</tr>
 			</tbody>
 		</table>
-		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=5880" target="_blank">合庫金（5880）</a></h3>
+		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=5880" target="_blank">合庫金（5880）</a>（金控股）</h3>
 		<table class="table table-bordered">
 			<thead>
 				<tr>
@@ -56,11 +55,6 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
-					<td>5</td>
-					<td>18.65</td>
-					<td>93250</td>
-				</tr>
 				<tr>
 					<td>10</td>
 					<td>18.125</td>
@@ -70,6 +64,77 @@
 					<td>5</td>
 					<td>17.4</td>
 					<td>87000</td>
+				</tr>
+			</tbody>
+		</table>
+		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2834" target="_blank">臺企銀（2834）</a>（銀行股）</h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>張數</th><th>購入價</th><th>總金額</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+	<div class="col-md-2">
+		<h4 class="text-info">民營</h4>
+		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2891" target="_blank">中信金（2891）</a></h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>張數</th><th>購入價</th><th>總金額</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>0</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2885" target="_blank">元大金（2885）</a></h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>張數</th><th>購入價</th><th>總金額</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>0</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2884" target="_blank">玉山金（2884）</a></h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>張數</th><th>購入價</th><th>總金額</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>0</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+		<h3><a href="http://www.cmoney.tw/finance/f00025.aspx?s=2887" target="_blank">台新金（2887）</a></h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>張數</th><th>購入價</th><th>總金額</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>0</td>
+					<td></td>
+					<td></td>
 				</tr>
 			</tbody>
 		</table>
@@ -125,33 +190,34 @@
 		<table class="table table-bordered">
 			<thead>
 				<tr>
-					<th>張數</th><th>購入價</th>
+					<th>張數</th><th>購入價</th><th>總金額</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td>1</td>
 					<td>248.5</td>
+					<td>248500</td>
 				</tr>
 				<tr>
 					<td>1</td>
 					<td>258</td>
+					<td>258000</td>
 				</tr>
 				<tr>
-					<td>1</td>
-					<td>263</td>
-				</tr>
-				<tr>
-					<td>1</td>
-					<td>265</td>
-				</tr>
-				<tr>
-					<td>1</td>
-					<td>262</td>
+					<td>3</td>
+					<td>263.33</td>
+					<td>789990</td>
 				</tr>
 				<tr>
 					<td>1</td>
 					<td>255</td>
+					<td>255000</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>236</td>
+					<td>236000</td>
 				</tr>
 			</tbody>
 		</table>

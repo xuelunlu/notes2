@@ -37,6 +37,9 @@
 						<a class="nav-link" href="centos.php">centos</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" href="mysql.php">mysql</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" href="company.php">極富美</a>
 					</li>
 					<li class="nav-item">
@@ -44,6 +47,9 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="green.php">綠界設定</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="teach.php">教學</a>
 					</li>
 				</ul>
 				<form class="form-inline my-2 my-lg-0">
