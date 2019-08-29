@@ -16,9 +16,6 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="stock.php">股票 <span class="sr-only">(current)</span></a>
-					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="resources.php">開發資源</a>
 					</li>
@@ -29,8 +26,6 @@
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<a class="dropdown-item" href="php7.php">Install PHP7</a>
 							<a class="dropdown-item" href="git.php">Install GIT</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="discuz.php">gitignore</a>
 						</div>
 					</li>
 					<li class="nav-item">
@@ -41,15 +36,6 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="company.php">極富美</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="ecpay.php">綠界金流</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="green.php">綠界設定</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="teach.php">教學</a>
 					</li>
 				</ul>
 				<form class="form-inline my-2 my-lg-0">

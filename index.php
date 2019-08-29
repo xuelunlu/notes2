@@ -31,6 +31,7 @@
 			<li><a target="_blank" href="https://domain.cloudmax.com.tw/index.php">Cloudmax 網域名稱申請服務</a></li>
 			<li><a target="_blank" href="https://domain.hinet.net/">HiNet 網域名稱申請服務</a></li>
 			<li><a target="_blank" href="http://localhost/admin/admindesigns/theme/ui_icons.html">ui_icons</a></li>
+			<li><a target="_blank" href="http://www.sinotrade.com.tw/">永豐金理財網</a></li>
 		</ul>
 	</div>
 	<div class="col-md-2">
@@ -39,6 +40,7 @@
 			<li><a target="_blank" href="https://www.ntbt.gov.tw/etwmain/front/ETW213W">稅籍登記案件進度查詢</a></li>
 			<li><a target="_blank" href="https://eservice.nhi.gov.tw/webunit/system/loginca.aspx">網路申請成立健保投保單位</a></li>
 			<li><a target="_blank" href="https://eservice.nhi.gov.tw/nhiweb1/system/mLoginCa.aspx">多憑證網路承保作業</a></li>
+			<li><a target="_blank" href="https://edesk.bli.gov.tw/na/">e 化服務系統 : 個人網路申報及查詢作業</a></li>
 		</ul>
 	</div>
 	<div class="col-md-2">
@@ -50,63 +52,8 @@
 			<li><a target="_blank" href="https://www.youtube.com/watch?v=c1PD4-lk4VI">價值來自於需求</a></li>
 		</ul>
 	</div>
-	<div class="col-md-2">
-		<h3>健康</h3>
-		<ul>
-			<li><a target="_blank" href="https://www.youtube.com/watch?v=A71pdV6zy20">如何开始学习销售？</a></li>
-			<li><a target="_blank" href="https://www.youtube.com/watch?v=ACBYAXq1UIQ">銷售 - 從銷到售 Selling to Closing</a></li>
-			<li><a target="_blank" href="https://www.youtube.com/watch?v=ZnYtnYMDkTE&index=2&list=PLM9-F1qvHktzcJQHeHpMl_AUV2mW7O2fZ">行動力的來源 - 你真正要的是什麼？</a></li>
-			<li><a target="_blank" href="https://www.youtube.com/watch?v=c1PD4-lk4VI">價值來自於需求</a></li>
-		</ul>
-	</div>
 </div>
 <div class="row">
-	<div class="col-md-4">
-		<h3 style="color: #0000FF;">richsite</h3>
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th colspan="5">35.189.161.218</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>lawsearch</td>
-					<td>teach</td>
-					<td>admin</td>
-					<td>recruit</td>
-				</tr>
-				<tr>
-					<td><a href="http://localhost/lawsearch/index.php/admin/judgment/table" target="_blank">網址 - 開發機</a> <a href="http://localhost/lawsearch/" target="_blank">前台</a></td>
-					<td><a href="http://localhost/website/" target="_blank">網址 - 開發機</a></td>
-					<td><a href="http://localhost/admin/" target="_blank">網址 - 開發機</a></td>
-					<td><a href="http://localhost/recruit/" target="_blank">網址 - 開發機</a></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td><a href="http://admin.richsite.com.tw/" target="_blank">網址 - 測試機</a></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>
-						<a href="http://www.lawsearch.com.tw/index.php/admin/judgment/table" target="_blank">網址 - 正式機</a>  <a href="http://www.lawsearch.com.tw/" target="_blank">前台</a>
-					</td>
-					<td>
-						<a href="http://teach.richsite.com.tw/" target="_blank">網址 - 正式機</a>
-					</td>
-					<td></td>
-					<td><a href="http://recruit.richsite.com.tw/" target="_blank">網址 - 正式機</a></td>
-				</tr>
-				<tr>
-					<td colspan="4"><a href="http://db.richsite.com.tw/" target="_blank">資料庫 - 正式機</a></td>
-				</tr>
-				<tr>
-					<td colspan="4"><a href="http://tool.richsite.com.tw/" target="_blank">　工具 - 正式機</a></td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
 	<div class="col-md-2">
 		<h3 style="color: #0000FF;">35.201.174.115</h3>
 		<table class="table table-bordered">
