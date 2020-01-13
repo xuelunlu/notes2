@@ -7,7 +7,6 @@
 			<li><a target="_blank" href="https://tw.dictionary.search.yahoo.com/">Yahoo奇摩字典搜尋</a></li>
 			<li><a target="_blank" href="https://www.fotor.com/">fotor</a></li>
 			<li><a target="_blank" href="https://www.xml-sitemaps.com/">XML Sitemaps Generator</a></li>
-			<li><a target="_blank" href="http://www.caself.me/products">caself</a></li>
 			<li><a target="_blank" href="http://www.lanrentuku.com/bg/">網頁背景</a></li>
 			<li><a target="_blank" href="http://embedresponsively.com/">embedresponsively</a></li>
 		</ul>
@@ -18,7 +17,6 @@
 			<li><a target="_blank" href="https://www.google.com/webmasters/tools/home?hl=zh-TW">網站管理員</a></li>
 			<li><a target="_blank" href="https://ads.google.com/aw/overview?ocid=285595153&__c=9977949897&authuser=0&__u=5764401155">Google Ads - 極富美</a></li>
 			<li><a target="_blank" href="https://console.cloud.google.com/home/dashboard?project=richsite-blog">gcp - 極富美</a></li>
-			<li><a target="_blank" href="https://pro.104.com.tw/vip/index/index">104</a></li>
 		</ul>
 	</div>
 	<div class="col-md-2">
@@ -30,16 +28,14 @@
 			<li><a target="_blank" href="https://simpany.co/">心朋科技有限公司</a></li>
 			<li><a target="_blank" href="https://domain.cloudmax.com.tw/index.php">Cloudmax 網域名稱申請服務</a></li>
 			<li><a target="_blank" href="https://domain.hinet.net/">HiNet 網域名稱申請服務</a></li>
-			<li><a target="_blank" href="http://localhost/admin/admindesigns/theme/ui_icons.html">ui_icons</a></li>
 			<li><a target="_blank" href="http://www.sinotrade.com.tw/">永豐金理財網</a></li>
+			<li><a target="_blank" href="https://www.esunconsulting.com.tw/index.asp">玉山投顧</a></li>
 		</ul>
 	</div>
 	<div class="col-md-2">
 		<h3>其他2</h3>
 		<ul>
-			<li><a target="_blank" href="https://www.ntbt.gov.tw/etwmain/front/ETW213W">稅籍登記案件進度查詢</a></li>
-			<li><a target="_blank" href="https://eservice.nhi.gov.tw/webunit/system/loginca.aspx">網路申請成立健保投保單位</a></li>
-			<li><a target="_blank" href="https://eservice.nhi.gov.tw/nhiweb1/system/mLoginCa.aspx">多憑證網路承保作業</a></li>
+			<li><a target="_blank" href="https://eservice.nhi.gov.tw/Personal1/System/mLogin.aspx">健保個人資料、欠費查詢A</a></li>
 			<li><a target="_blank" href="https://edesk.bli.gov.tw/na/">e 化服務系統 : 個人網路申報及查詢作業</a></li>
 		</ul>
 	</div>

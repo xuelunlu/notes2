@@ -33,6 +33,7 @@
 <h3>log檔位置:</h3>
 <ul>
 	<li>/var/log/httpd24</li>
+	<li>/var/opt/rh/rh-mysql57/log/mysql/mysqld.log</li>
 </ul>
 <h3>網站根目錄位置:</h3>
 <ul>
