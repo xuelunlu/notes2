@@ -21,7 +21,7 @@
 <h3>初始化:</h3>
 <ul>
 	<li>mysqladmin -u root password 'your.password'</li>
-	<li>chown richsite888 /opt/rh/httpd24/root/var/www/html; chgrp richsite888 /opt/rh/httpd24/root/var/www/html</li>
+	<li>chown [帳號名稱] /opt/rh/httpd24/root/var/www/html; chgrp [帳號名稱] /opt/rh/httpd24/root/var/www/html</li>
 </ul>
 <h3>設定檔位置:</h3>
 <ul>
@@ -43,12 +43,11 @@
 <ul>
 	<li>vi /opt/rh/httpd24/root/etc/httpd/conf.d/virtual.conf</li>
 	<li><pre>
-		#NameVirtualHost *:80
-		&ltVirtualHost *:80&gt
-		ServerName tool.ithelper.idv.tw
-		DocumentRoot /opt/rh/httpd24/root/var/www/html/tool
-		&lt/VirtualHost&gt
-	</pre></li>
+#NameVirtualHost *:80
+&ltVirtualHost *:80&gt
+ServerName tool.ithelper.idv.tw
+DocumentRoot /opt/rh/httpd24/root/var/www/html/tool
+&lt/VirtualHost&gt</pre></li>
 </ul>
 <h3>crontab:</h3>
 <ul>
@@ -59,10 +58,13 @@
 <h3>其他:</h3>
 <ul>
 	<li>git clone https://github.com/amnuts/opcache-gui.git</li>
-	<li>0 1 * * * tar -zcvf /opt/rh/httpd24/root/var/www/html/richsite_blog.tar.gz /opt/rh/httpd24/root/var/www/html/wordpress</li>
-	<li>0 1 * * * mysqldump -u richsite_blog -p密碼 richsite_blog > /opt/rh/httpd24/root/var/www/html/richsite_blog.sql</li>
+	<li>0 1 * * * tar -zcvf /opt/rh/httpd24/root/var/www/html/[備份檔檔名].tar.gz /opt/rh/httpd24/root/var/www/html/[要備份的資料夾]</li>
+	<li>0 1 * * * mysqldump -u [帳號名稱] -p密碼 [要備份的資料庫名稱] > /opt/rh/httpd24/root/var/www/html/[備份檔檔名].sql</li>
 	<li>0 */4 * * * /etc/init.d/httpd24-httpd restart >> /opt/rh/httpd24/root/var/www/html/httpd-logs</li>
 	<li>0 */4 * * * /etc/init.d/rh-mysql57-mysqld restart >> /opt/rh/httpd24/root/var/www/html/mysqld-logs</li>
+	<li>*/10 * * * * /usr/bin/php -q /var/www/html/index.php >> /var/www/html/logs</li>
+	<li>&gt; 代表取代, &gt;&gt; 代表累加.</li>
+	<li>-q Quiet-mode. Suppress HTTP Header output.</li>
 </ul>
 <h3>參考:</h3>
 <ul>

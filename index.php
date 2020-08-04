@@ -22,9 +22,6 @@
 	<div class="col-md-2">
 		<h3>其他1</h3>
 		<ul>
-			<li><a target="_blank" href="http://jirs.judicial.gov.tw/FJUD/">裁判書查詢</a></li>
-			<li><a target="_blank" href="https://www.judicial.gov.tw/assist/assist03-07.asp">書狀參考範例─刑事訴訟部分</a></li>
-			<li><a target="_blank" href="http://csdi.judicial.gov.tw/abbs/wkw/WHD3A00.jsp">案件庭期查詢系統</a></li>
 			<li><a target="_blank" href="https://simpany.co/">心朋科技有限公司</a></li>
 			<li><a target="_blank" href="https://domain.cloudmax.com.tw/index.php">Cloudmax 網域名稱申請服務</a></li>
 			<li><a target="_blank" href="https://domain.hinet.net/">HiNet 網域名稱申請服務</a></li>
@@ -73,6 +70,30 @@
 				</tr>
 				<tr>
 					<td><a href="http://tool.cana.org.tw/" target="_blank">　工具 - 正式機</a></td>
+					<td>&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="col-md-2">
+		<h3 style="color: #0000FF;">技術分析</h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>RSI</th><th>&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="https://www.cmoney.tw/notes/note-detail.aspx?nid=156915" target="_blank">　用指標「背離」會虧錢？</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="https://bc8800.pixnet.net/blog/post/328639949-%E7%8D%A8%E8%A7%A3%E6%8C%87%E6%A8%99-rsi-%E7%BA%8C%E4%B8%80-%E8%AB%87%E8%83%8C%E9%9B%A2" target="_blank">　獨解指標 RSI 續一 談背離</a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="https://www.stockfeel.com.tw/%E6%95%99%E4%BD%A0%E7%9C%8B%E6%87%82rsi%E7%9B%B8%E5%B0%8D%E5%BC%B7%E5%BC%B1%E6%8C%87%E6%A8%99/" target="_blank">　教你看懂RSI相對強弱指標</a></td>
 					<td>&nbsp;</td>
 				</tr>
 			</tbody>
